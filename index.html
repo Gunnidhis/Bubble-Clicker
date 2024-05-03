@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble Game</title>
+    <link rel="stylesheet" href=".\style.css">
+
+    <!-- "overpass font import" -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div id="main">
+
+        <div class="username_container">
+            <label for="player_name">Player Name</label>
+            <input placeholder ="Enter Your Name" id = "player_name"  type="text">
+
+        </div>
+        
+        <button class="button" role="button" id = "start_button">
+            <span class="text" >Start</span>
+        </button>
+
+        <div id="timerHeading">
+            <h2>Time Remaining</h2>
+        </div>
+
+        <div id="timer_var">
+            60
+        </div>
+
+        <div id="panel">
+            <div id="panel_top">
+
+                <div class="element">
+                    <h2>Hit</h2>
+                    <div id = "hit_val" class="box">--</div>
+                </div>
+
+                <!-- <div class="element">
+                    <h2>Timer</h2>
+                    <div id = "" class="box">30</div>
+                </div> -->
+
+                <div class="element">
+                    <h2>Score</h2>
+                    <div id = "score_val" class="box">0</div>
+                </div>
+                
+            </div>
+            <div id="panel_bottom">
+            </div>
+
+        </div>
+
+        <div id="panel2">
+            <div id="panel_top2">
+                    <h2>Leader Board</h2> 
+            </div>
+
+            
+
+            <div id="panel_botton2">
+                <div id = "leaderboard"></div>
+            </div>
+
+
+        </div>
+
+        <div id="instructionBox">
+
+            <h3><u>How to Play</u></h3>
+            <ul>
+                <li>Read the Hit</li>
+                <li>Click the bubble with Number same as Hit</li>
+                <li>Every successful hit gets you 10 points</li>
+                <li>To do so, you have 60 seconds</li>
+            </ul>
+
+        </div>
+        
+
+    </div>
+    <script src = "script.js"></script>
+</body>
+</html>
