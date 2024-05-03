@@ -2,7 +2,7 @@
 
 Bubble Clicker is an action-packed, precision-based game that challenges players to click vibrant bubbles with pinpoint accuracy.
 
-#How to Play
+# How to Play
 
 1. Read the Hit
 2. Click the bubble with Number same as Hit
